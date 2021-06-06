@@ -105,7 +105,7 @@ img {
     width: 10% !important;
     max-width: 10%; } }
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 480px) {
   /*block*/
   *[class=block] {
     display: block !important;
@@ -159,11 +159,16 @@ img {
   .mb_top_logo_padding {
     padding: 0 0 0 0 !important; }
   .center_image {
-    margin: 0 auto !important; }
+    margin: 0 auto !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 270px; }
   .center_text {
     text-align: center !important; }
   .center_table {
-    margin: 0 auto !important; } }
+    margin: 0 auto !important; }
+  .mb_grid_image_padding {
+    padding: 0 0 0 0 !important; } }
 
 /*force link colors*/
 *[class=appleLinks] {
@@ -199,10 +204,16 @@ img {
   padding: 0 0 0 0 !important; }
 
 .center_image {
-  margin: 0 auto !important; }
+  margin: 0 auto !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 270px; }
 
 .center_text {
   text-align: center !important; }
 
 .center_table {
   margin: 0 auto !important; }
+
+.mb_grid_image_padding {
+  padding: 0 0 0 0 !important; }

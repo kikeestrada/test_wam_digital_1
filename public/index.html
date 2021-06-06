@@ -145,7 +145,7 @@ img {
     width: 10% !important;
     max-width: 10%; } }
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 480px) {
   /*block*/
   *[class=block] {
     display: block !important;
@@ -199,11 +199,16 @@ img {
   .mb_top_logo_padding {
     padding: 0 0 0 0 !important; }
   .center_image {
-    margin: 0 auto !important; }
+    margin: 0 auto !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 270px; }
   .center_text {
     text-align: center !important; }
   .center_table {
-    margin: 0 auto !important; } }
+    margin: 0 auto !important; }
+  .mb_grid_image_padding {
+    padding: 0 0 0 0 !important; } }
 
 /*force link colors*/
 *[class=appleLinks] {
@@ -239,7 +244,10 @@ img {
   padding: 0 0 0 0 !important; }
 
 .center_image {
-  margin: 0 auto !important; }
+  margin: 0 auto !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 270px; }
 
 .center_text {
   text-align: center !important; }
@@ -247,10 +255,13 @@ img {
 .center_table {
   margin: 0 auto !important; }
 
+.mb_grid_image_padding {
+  padding: 0 0 0 0 !important; }
+
 	</style>
 	<title>Email Template</title>	 
 </head>
-<body class="dev" style="padding:0 !important">
+<body class="" style="padding:0 !important">
 	<!-- Starts NEW Gmail App fix-->
 <div class="gmailfix" style="white-space:nowrap; font:15px courier; line-height:0;">
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -297,24 +308,27 @@ img {
 					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 22px;">&nbsp;</td></tr>
 				</table>
 				<!--ends spacer padding table-->
-				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+				<!--start top headline title -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 	<tbody>
 		<tr>
 			<td valign="top" class="class-name" style="font-size: 0px; line-height: 0px;">
 				<h1 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 28px; line-height: 38px; color: #31598A; font-weight: normal;">
-					Identify adult patients in your <br>institution who may be appropriate <br>for long-acting injectable <br>antipsychotics (LAIs)
+					Identify adult patients in your <br class="hide-element-mobile">institution who may be appropriate <br class="hide-element-mobile">for long-acting injectable <br class="hide-element-mobile">antipsychotics (LAIs)
 				</h1>
 			</td>
 		</tr>		
 	</tbody>
 </table>
+<!--ends top headline title -->
 
 				<!--start spacer padding table-->
 				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 54px;">&nbsp;</td></tr>
 				</table>
 				<!--ends spacer padding table-->
-				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+				<!--start top Dynamic Name -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 	<tbody>
 		<tr>
 			<td valign="top" style="font-size: 0px; line-height: 0px;">
@@ -325,13 +339,15 @@ img {
 		</tr>		
 	</tbody>
 </table>
+<!--start top Dynamic Name -->
 
 				<!--start spacer padding table-->
 				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 20px;">&nbsp;</td></tr>
 				</table>
 				<!--ends spacer padding table-->
-				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+				<!--start top Body Copy -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 	<tbody>
 		<tr>
 			<td valign="top" style="font-size: 0px; line-height: 0px;">
@@ -343,18 +359,20 @@ img {
 		</tr>		
 	</tbody>
 </table>
+<!--ends top Body Copy -->
 
 				<!--start spacer padding table-->
 				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 35px;">&nbsp;</td></tr>
 				</table>
 				<!--ends spacer padding table-->
-				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+				<!--start grid Module -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 	<tr>
 		<td align="left" valign="top">
 			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
 				<tr>
-					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;">
+					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
 						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
 							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
 					</td>
@@ -398,13 +416,300 @@ img {
 		</td>
 	</tr>
 </table>
+<!--end grid Module -->
+ 
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 65px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				<!--start grid Module -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+	<tr>
+		<td align="left" valign="top">
+			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
+							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+					</td>
+				</tr>
+			</table>
+			<table class="blocktable" width="355" align="right" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
+						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
+							Patient List Tip Sheet for Epic® EHR
+						</h2>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
+							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px;">
+						<!-- CTA Mudule START -->
+						<table role="presentation" width="142" border="0" cellspacing="0" cellpadding="0" bgcolor="#199DDB" class="center_table">
+							<tr>
+								<td style="font-size:0; line-height:0; width: 1px;" width="1" valign="top" aria-hidden="true" bgcolor="#199DDB">
+									<img src="https://image.info15.citi.com/lib/fe3c15717564047a741578/m/1/1bdc8a3a-d8ff-475d-898f-82b3fe0a0a60.png"
+									width="1" height="40" border="0" alt="" style="display:block;width: 1px;height: 40px;" aria-hidden="true">
+								</td>
+								<td valign="middle" align="center" style="color: #ffffff;" bgcolor="#199DDB">
+									<a href="https://www.google.com/" style="display:block; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height: 20; font-weight:normal; line-height:19px; text-decoration:none;" target="_blank">
+									Download
+									</a>
+								</td>
+							</tr>
+						</table>
+						<!-- CTA Mudule END -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!--end grid Module -->
+ 
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 65px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				<!--start grid Module -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+	<tr>
+		<td align="left" valign="top">
+			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
+							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+					</td>
+				</tr>
+			</table>
+			<table class="blocktable" width="355" align="right" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
+						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
+							Patient List Tip Sheet for Epic® EHR
+						</h2>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
+							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px;">
+						<!-- CTA Mudule START -->
+						<table role="presentation" width="142" border="0" cellspacing="0" cellpadding="0" bgcolor="#199DDB" class="center_table">
+							<tr>
+								<td style="font-size:0; line-height:0; width: 1px;" width="1" valign="top" aria-hidden="true" bgcolor="#199DDB">
+									<img src="https://image.info15.citi.com/lib/fe3c15717564047a741578/m/1/1bdc8a3a-d8ff-475d-898f-82b3fe0a0a60.png"
+									width="1" height="40" border="0" alt="" style="display:block;width: 1px;height: 40px;" aria-hidden="true">
+								</td>
+								<td valign="middle" align="center" style="color: #ffffff;" bgcolor="#199DDB">
+									<a href="https://www.google.com/" style="display:block; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height: 20; font-weight:normal; line-height:19px; text-decoration:none;" target="_blank">
+									Download
+									</a>
+								</td>
+							</tr>
+						</table>
+						<!-- CTA Mudule END -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!--end grid Module -->
+ 
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 65px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				<!--start grid Module -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+	<tr>
+		<td align="left" valign="top">
+			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
+							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+					</td>
+				</tr>
+			</table>
+			<table class="blocktable" width="355" align="right" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
+						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
+							Patient List Tip Sheet for Epic® EHR
+						</h2>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
+							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px;">
+						<!-- CTA Mudule START -->
+						<table role="presentation" width="142" border="0" cellspacing="0" cellpadding="0" bgcolor="#199DDB" class="center_table">
+							<tr>
+								<td style="font-size:0; line-height:0; width: 1px;" width="1" valign="top" aria-hidden="true" bgcolor="#199DDB">
+									<img src="https://image.info15.citi.com/lib/fe3c15717564047a741578/m/1/1bdc8a3a-d8ff-475d-898f-82b3fe0a0a60.png"
+									width="1" height="40" border="0" alt="" style="display:block;width: 1px;height: 40px;" aria-hidden="true">
+								</td>
+								<td valign="middle" align="center" style="color: #ffffff;" bgcolor="#199DDB">
+									<a href="https://www.google.com/" style="display:block; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height: 20; font-weight:normal; line-height:19px; text-decoration:none;" target="_blank">
+									Download
+									</a>
+								</td>
+							</tr>
+						</table>
+						<!-- CTA Mudule END -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!--end grid Module -->
+ 
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 65px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				<!--start grid Module -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+	<tr>
+		<td align="left" valign="top">
+			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
+							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+					</td>
+				</tr>
+			</table>
+			<table class="blocktable" width="355" align="right" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
+						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
+							Patient List Tip Sheet for Epic® EHR
+						</h2>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
+							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px;">
+						<!-- CTA Mudule START -->
+						<table role="presentation" width="142" border="0" cellspacing="0" cellpadding="0" bgcolor="#199DDB" class="center_table">
+							<tr>
+								<td style="font-size:0; line-height:0; width: 1px;" width="1" valign="top" aria-hidden="true" bgcolor="#199DDB">
+									<img src="https://image.info15.citi.com/lib/fe3c15717564047a741578/m/1/1bdc8a3a-d8ff-475d-898f-82b3fe0a0a60.png"
+									width="1" height="40" border="0" alt="" style="display:block;width: 1px;height: 40px;" aria-hidden="true">
+								</td>
+								<td valign="middle" align="center" style="color: #ffffff;" bgcolor="#199DDB">
+									<a href="https://www.google.com/" style="display:block; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height: 20; font-weight:normal; line-height:19px; text-decoration:none;" target="_blank">
+									Download
+									</a>
+								</td>
+							</tr>
+						</table>
+						<!-- CTA Mudule END -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!--end grid Module -->
+ 
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 65px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				<!--start grid Module -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+	<tr>
+		<td align="left" valign="top">
+			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
+							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+					</td>
+				</tr>
+			</table>
+			<table class="blocktable" width="355" align="right" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
+						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
+							Patient List Tip Sheet for Epic® EHR
+						</h2>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
+							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" style="font-size: 0px; line-height: 0px;">
+						<!-- CTA Mudule START -->
+						<table role="presentation" width="142" border="0" cellspacing="0" cellpadding="0" bgcolor="#199DDB" class="center_table">
+							<tr>
+								<td style="font-size:0; line-height:0; width: 1px;" width="1" valign="top" aria-hidden="true" bgcolor="#199DDB">
+									<img src="https://image.info15.citi.com/lib/fe3c15717564047a741578/m/1/1bdc8a3a-d8ff-475d-898f-82b3fe0a0a60.png"
+									width="1" height="40" border="0" alt="" style="display:block;width: 1px;height: 40px;" aria-hidden="true">
+								</td>
+								<td valign="middle" align="center" style="color: #ffffff;" bgcolor="#199DDB">
+									<a href="https://www.google.com/" style="display:block; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height: 20; font-weight:normal; line-height:19px; text-decoration:none;" target="_blank">
+									Download
+									</a>
+								</td>
+							</tr>
+						</table>
+						<!-- CTA Mudule END -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!--end grid Module -->
  
 				<!--start spacer padding table-->
 				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 26px;">&nbsp;</td></tr>
 				</table>
 				<!--ends spacer padding table-->
-				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+				<!--start foot body copy -->
+<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
 	<tbody>
 		<tr>
 			<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 0 8px;">
@@ -485,6 +790,7 @@ img {
 		</tr>
 	</tbody>
 </table>
+<!--end foot body copy -->
  				
 				<!--ends spacer padding table-->
 				<!-- Content Ends Here -->
