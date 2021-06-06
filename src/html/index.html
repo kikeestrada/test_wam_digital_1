@@ -10,14 +10,59 @@
 </head>
 <body class="dev" style="padding:0 !important">
 	_include('./config/top_gmail_fix.html')
+	<br><br>
 	<!-- Main Table Container Starts -->
-	<table width="650" role="presentation" border="0" style="width: 650px;" cellspacing="0" cellpadding="0" align="center"  class="blocktable">
+	<table width="600" role="presentation" border="0" style="width: 600px;" cellspacing="0" cellpadding="0" align="center"  class="blocktable">
 		<tr>
-			<td valign="top" bgcolor="#ffffff">
+			<td valign="top" bgcolor="#ffffff" style="padding: 20px 0 0 0">
+				<!-- Top Line Module START -->
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+					<tr><td valign="top" style=" font-size: 0px; line-height: 0px; border-bottom: 2px solid #a5a5a5;">&nbsp;</td></tr>
+				</table>
+				<!-- Top Line Module END -->
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" bgcolor="#ffffff" style="padding: 0 20px 0 20px;">
 				<!-- Content Starts Here --> 
 				<!-- _include('./modules/list_1.html') -->
-				_include('./modules/clean_table.html')
-				_include('./modules/single_table.html')
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 35px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				_include('./modules/top_logo.html')
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 22px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				_include('./modules/top_hl_copy.html')
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 54px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				_include('./modules/top_dynamic_name.html')
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 20px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				_include('./modules/top_body_copy.html')
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 35px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				_include('./modules/grid.html') 
+				<!--start spacer padding table-->
+				<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+					<tr><td style="font-size: 0px; line-height: 0px;padding-top: 26px;">&nbsp;</td></tr>
+				</table>
+				<!--ends spacer padding table-->
+				_include('./modules/foot_body_copy.html') 				
+				<!--ends spacer padding table-->
 				<!-- Content Ends Here -->
 				<!-- ****************Starts Show content in Yahoo only Fix**************-->
 				<div class="yahootest" style="display:none;">This content shows only on Yahoo</div>
