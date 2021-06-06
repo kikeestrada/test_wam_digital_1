@@ -45,7 +45,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('images-dev', () => {
-	gulp.src('./src/img/**/**')
+	gulp.src('./src/img/*.*')
 		.pipe(gulp.dest('./public/img'))
 });
 
