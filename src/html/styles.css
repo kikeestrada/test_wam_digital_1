@@ -7,6 +7,9 @@ body.dev table {
       position: relative; }
       body.dev table tr td:nth-child(even) {
         background: rgba(70, 130, 180, 0.2); }
+    body.dev table tr td.my_bg {
+      background: lightblue;
+      background-clip: space; }
 
 * {
   -webkit-text-size-adjust: none;
@@ -135,6 +138,10 @@ img {
   font-weight: 400;
   src: local("Indie Flower"), local("IndieFlower"), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format("woff2"); }
 
+.padding_bg {
+  background: yellow;
+  background-origin: padding-box, content-box; }
+
 @media only screen and (max-width: 480px) {
   /*block*/
   *[class=block] {
@@ -189,10 +196,14 @@ img {
   .mb_top_logo_padding {
     padding: 0 0 0 0 !important; }
   .center_image {
-    margin: 0 auto !important; }
+    margin: 0 auto !important;
+    width: 270px !important;
+    height: auto !important; }
   .center_text {
     text-align: center !important; }
   .center_table {
     margin: 0 auto !important; }
   .mb_grid_image_padding {
+    padding: 0 0 0 0 !important; }
+  .mb_foot_body_padding {
     padding: 0 0 0 0 !important; } }
