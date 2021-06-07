@@ -135,10 +135,6 @@ img {
   font-weight: 400;
   src: local("Indie Flower"), local("IndieFlower"), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format("woff2"); }
 
-.padding_bg {
-  background: yellow;
-  background-origin: padding-box, content-box; }
-
 @media only screen and (max-width: 480px) {
   /*block*/
   *[class=block] {
