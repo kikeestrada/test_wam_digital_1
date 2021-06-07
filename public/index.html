@@ -107,7 +107,7 @@ img {
   -ms-interpolation-mode: bicubic; }
 
 /*fluid stack*/
-@media only screen and (min-width: 649px) {
+@media only screen and (min-width: 480px) {
   .mj-column-per-100 {
     width: 100% !important;
     max-width: 100%; }
@@ -144,6 +144,36 @@ img {
   .mj-column-per-10 {
     width: 10% !important;
     max-width: 10%; } }
+
+/*force link colors*/
+*[class=appleLinks] {
+  color: #000000 !important;
+  text-decoration: none !important; }
+
+.appleLinks {
+  color: #000000 !important;
+  text-decoration: none !important; }
+
+/*gmailfix*/
+*[class=gmailfix] {
+  display: none !important; }
+
+.gmailfix {
+  display: none !important; }
+
+/*Yahoo Media query*/
+@media yahoo {
+  .yahootest {
+    width: 200px !important;
+    border: 1px solid red !important;
+    display: block !important; } }
+
+/*Web Fonts*/
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Indie Flower"), local("IndieFlower"), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format("woff2"); }
 
 @media only screen and (max-width: 480px) {
   /*block*/
@@ -199,10 +229,7 @@ img {
   .mb_top_logo_padding {
     padding: 0 0 0 0 !important; }
   .center_image {
-    margin: 0 auto !important;
-    width: 100% !important;
-    height: auto !important;
-    max-width: 270px; }
+    margin: 0 auto !important; }
   .center_text {
     text-align: center !important; }
   .center_table {
@@ -210,58 +237,10 @@ img {
   .mb_grid_image_padding {
     padding: 0 0 0 0 !important; } }
 
-/*force link colors*/
-*[class=appleLinks] {
-  color: #000000 !important;
-  text-decoration: none !important; }
-
-.appleLinks {
-  color: #000000 !important;
-  text-decoration: none !important; }
-
-/*gmailfix*/
-*[class=gmailfix] {
-  display: none !important; }
-
-.gmailfix {
-  display: none !important; }
-
-/*Yahoo Media query*/
-@media yahoo {
-  .yahootest {
-    width: 200px !important;
-    border: 1px solid red !important;
-    display: block !important; } }
-
-/*Web Fonts*/
-@font-face {
-  font-family: 'Indie Flower';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Indie Flower"), local("IndieFlower"), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format("woff2"); }
-
-.mb_top_logo_padding {
-  padding: 0 0 0 0 !important; }
-
-.center_image {
-  margin: 0 auto !important;
-  width: 100% !important;
-  height: auto !important;
-  max-width: 270px; }
-
-.center_text {
-  text-align: center !important; }
-
-.center_table {
-  margin: 0 auto !important; }
-
-.mb_grid_image_padding {
-  padding: 0 0 0 0 !important; }
-
 	</style>
 	<title>Email Template</title>	 
 </head>
-<body class="" style="padding:0 !important">
+<body class="dev" style="padding:0 !important">
 	<!-- Starts NEW Gmail App fix-->
 <div class="gmailfix" style="white-space:nowrap; font:15px courier; line-height:0;">
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -373,8 +352,8 @@ img {
 			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
-						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
-							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card_1.png"
+							width="175" height="242" border="0" alt="" style="display:block; width: 175px;height: 242px;" class="center_image"/>
 					</td>
 				</tr>
 			</table>
@@ -382,14 +361,14 @@ img {
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
 						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
-							Patient List Tip Sheet for Epic® EHR
+							Patient List Tip Sheet for Epic<sup>&reg;</sup> EHR
 						</h2>
 					</td>
 				</tr>
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
 						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
-							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an&nbsp;LAI
 						</div>
 					</td>
 				</tr>
@@ -430,8 +409,8 @@ img {
 			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
-						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
-							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card_2.png"
+							width="175" height="242" border="0" alt="" style="display:block; width: 175px;height: 242px;" class="center_image"/>
 					</td>
 				</tr>
 			</table>
@@ -439,14 +418,15 @@ img {
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
 						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
-							Patient List Tip Sheet for Epic® EHR
+							Patient List Tip Sheet for Cerner<sup>&reg;</sup> EHR
+
 						</h2>
 					</td>
 				</tr>
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
 						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
-							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an&nbsp;LAI
 						</div>
 					</td>
 				</tr>
@@ -487,8 +467,8 @@ img {
 			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
-						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
-							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card_3.png"
+							width="175" height="242" border="0" alt="" style="display:block; width: 175px;height: 242px;" class="center_image"/>
 					</td>
 				</tr>
 			</table>
@@ -496,14 +476,14 @@ img {
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
 						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
-							Patient List Tip Sheet for Epic® EHR
+							Clinical Decision Alert Tip Sheet <br>for Epic<sup>&reg;</sup>&nbsp;EHR
 						</h2>
 					</td>
 				</tr>
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
 						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
-							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+							Instructions to generate an inpatient and/or outpatient clinical decision alert for adult patients diagnosed with schizophrenia and not currently on an&nbsp;LAI
 						</div>
 					</td>
 				</tr>
@@ -544,8 +524,8 @@ img {
 			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
-						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
-							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card_4.png"
+							width="175" height="242" border="0" alt="" style="display:block; width: 175px;height: 242px;" class="center_image"/>
 					</td>
 				</tr>
 			</table>
@@ -553,14 +533,14 @@ img {
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
 						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
-							Patient List Tip Sheet for Epic® EHR
+							Clinical Decision Alert Tip Sheet <br>for Cerner<sup>&reg;</sup>&nbsp;EHR
 						</h2>
 					</td>
 				</tr>
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
 						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
-							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+							Instructions to generate an inpatient and/or outpatient clinical decision alert for adult patients diagnosed with schizophrenia and not currently on an&nbsp;LAI
 						</div>
 					</td>
 				</tr>
@@ -601,8 +581,8 @@ img {
 			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
-						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
-							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card_5.png"
+							width="175" height="242" border="0" alt="" style="display:block; width: 175px;height: 242px;" class="center_image"/>
 					</td>
 				</tr>
 			</table>
@@ -610,14 +590,14 @@ img {
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
 						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
-							Patient List Tip Sheet for Epic® EHR
+							Clinical Decision Alert Tip Sheet <br>for MEDITECH<sup>&reg;</sup>&nbsp;EHR
 						</h2>
 					</td>
 				</tr>
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 0 0 17px 0;">
 						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #4E5054;" class="center_text">
-							Instructions to generate a list of adult patients diagnosed with schizophrenia and not currently on an LAI
+							Instructions to generate an inpatient and/or outpatient clinical decision alert for adult patients diagnosed with schizophrenia and not currently on an&nbsp;LAI
 						</div>
 					</td>
 				</tr>
@@ -658,8 +638,8 @@ img {
 			<table class="blocktable" width="187" align="left" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td style="font-size: 0px; line-height: 0px; padding: 0 0 0 21px;" class="mb_grid_image_padding">
-						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card.jpg"
-							width="166" height="232" border="0" alt="" style="display:block; width: 166px;height: 232px;" class="center_image"/>
+						<img src="https://raw.githubusercontent.com/kikeestrada/test_wam_digital_1/master/public/img/card_6.png"
+							width="175" height="242" border="0" alt="" style="display:block; width: 175px;height: 242px;" class="center_image"/>
 					</td>
 				</tr>
 			</table>
@@ -667,7 +647,7 @@ img {
 				<tr>
 					<td valign="top" style="font-size: 0px; line-height: 0px; padding: 36px 0 0 0;">
 						<h2 style="margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #199DDB;" class="center_text">
-							Patient List Tip Sheet for Epic® EHR
+							Patient List Tip Sheet for Epic<sup>&reg;</sup> EHR
 						</h2>
 					</td>
 				</tr>
