@@ -4,15 +4,11 @@ body.dev{
 			tr{
 					outline: 1px solid #cccccc;
 					td{
-							position: relative; 
-							&:nth-child(even) {
-									background: rgba(70, 130, 180, 0.2); }
+						position: relative; 
+						&:nth-child(even) {
+								background: rgba(70, 130, 180, 0.2); 
+							}
 					}
-					td.my_bg{
-						background: lightblue;
-						background-clip: ; 		
-					}
-					
 			}
 	}
 }
